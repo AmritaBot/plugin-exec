@@ -1,8 +1,11 @@
 [project]
 name = "amrita-plugin-exec"
 description = ""
-version = "0.1.0"
-dependencies = ["amrita[full]>=0.4.2"]
+version = "0.1.1"
+dependencies = [
+    "amrita[full]>=0.4.2",
+    "docker>=6.0.0"
+]
 readme = "README.md"
 requires-python = ">=3.10, <3.14"
 
