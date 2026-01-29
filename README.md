@@ -63,4 +63,4 @@ ENABLE_IN_TOOL=true
 
 ## TODO
 
-- [ ] 包装为Amrita的Tool
+- [x] 包装为Amrita的Tool
