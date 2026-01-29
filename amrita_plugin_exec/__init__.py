@@ -2,7 +2,7 @@ from nonebot.plugin import PluginMetadata, require
 
 require("amrita.plugins.perm")
 
-from . import container_exec, main
+from . import container_exec, main, tool
 
 __plugin_meta__ = PluginMetadata(
     name="命令执行插件",
@@ -11,4 +11,4 @@ __plugin_meta__ = PluginMetadata(
     type="application",
 )
 
-__all__ = ["container_exec", "main"]
+__all__ = ["container_exec", "main", "tool"]

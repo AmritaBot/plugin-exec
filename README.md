@@ -39,12 +39,20 @@ PLUGIN_EXEC_SHELL_NAME=sh
 
 AUTO_REBUILD_CONTAINER=true
 # 是否在运行完成后自动重建容器，默认为 true
+
+ENABLE_IN_TOOL=true
+# 是否允许LLM执行此工具，默认为 true
 ```
 
 ## 使用方法
 
 在Amrita机器人中，授权用户可以使用以下命令：
+
 - `/exec <command>`：执行指定的服务器命令。
+
+## 注意事项
+
+如果要交给LLM进行命令执行，则仅支持 Docker 容器。
 
 ## 权限节点
 
@@ -55,4 +63,4 @@ AUTO_REBUILD_CONTAINER=true
 
 ## TODO
 
-- [ ]  包装为Amrita的Tool
+- [ ] 包装为Amrita的Tool

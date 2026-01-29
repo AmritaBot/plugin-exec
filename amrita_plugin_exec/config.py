@@ -8,6 +8,7 @@ class Config(BaseModel):
     docker_host: str = "unix://var/run/docker.sock"
     shell_name: str = "sh"
     auto_rebuild_container: bool = True
+    enable_in_tool: bool = True
 
 
-CONFIG = get_plugin_config(Config)
+CONFIG: Config = get_plugin_config(Config)
